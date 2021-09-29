@@ -44,7 +44,7 @@ void searchData(std::vector<int>& data) {
 int main()
 {
     bool running = true;
-    std::vector<int> data = {};
+    std::vector<int> data = {213,312,412,545,644,766,878,899,900};
     while (running) {
         std::cout << "Isi data: ";
         printVecInt(data);
@@ -67,5 +67,6 @@ int main()
             running = false;
             break;
         }
+        std::cout << "\n";
     }
 }
